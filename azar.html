@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tablet.css" media="(min-width: 630px)">
+<link rel="stylesheet" href="desktop.css" media="(min-width: 1100px">
+    <title>Document</title>
+</head>
+<body>
+        <header class="title-section">
+            <h1>Adivina el número</h1>
+        </header>
+    <main>
+        <section class="instructions-section">
+            <p>Bienvenido a adinvina el número, el juego consiste en que escogas un número y si tienes el mismo que la computadora ganas</p> 
+            <p>Suerteee!</p>
+        </section>
+        <section class="user-data-section">
+            <div class="user-data-container">
+                <input type="number" name="" id="user-number" placeholder="Escoge un número" class="number">
+                <input type="submit" value="Comparar" id="boton" class="boton">                  
+            </div>     
+        </section>
+        <section class="lose-win-section">
+            <div class="lose-win-container">
+                <p id="ganapierde"></p>
+            </div>
+        </section>
+        <section class="game-section">
+            <div class="user-box">
+                <p class="title-user">Tu</p>
+                <p id="user" class="user-result"></p>
+            </div>
+            <div class="machine-box">
+                <p class="title-machine">Maquina</p>
+                <p id="machine" class="machine-result"></p>
+            </div>
+        </section>
+   </main>
+    <script src="azar.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.title-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 40px 20px 8px;
+    background: #7209B7;
+}
+.title-section h1 {
+    font-size: 4.4rem;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-shadow: -1px 3px 2px #a29a9a;;
+}
+main {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #7209b7, #8802b0, #9902aa, #a80ba4, #b5179e);
+}
+.instructions-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.instructions-section p {
+    font-size: 2.4rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: rgb(218, 212, 212);
+    justify-content: center;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.game-section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.user-box,
+.machine-box{
+    width: 150px;
+    height: 250px;
+    background: #8b0b8b;
+    border-radius: 20px;
+    box-shadow: -1px 2px 13px 0px #171616b0;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+.user-box,
+.machine-box {
+    font-size: 2.4rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: white;
+}
+.user-result,
+.machine-result {
+    font-size: 12rem;
+    margin-top: 40px;
+}
+.user-data-section {
+    width: 100%;
+    padding: 0 20px 0;
+}
+.user-data-container {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.boton {
+    width: 124px;
+    margin-right: 20px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    cursor: pointer;
+    background: #8802b0;
+    border:none;
+    box-shadow: 0px 2px 10px #312929fc;
+}
+.boton:hover {
+    transition: all 450ms ease-in-out;
+    transform: scale(1.2);
+}
+.number {
+    background: none;
+    border: none;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.4rem;
+    border-bottom: 1px solid white;
+    margin-right: 28px;
+    outline: none;
+}
+.number::placeholder {
+    font-size: 1.4rem;
+    color: white;
+}
+.lose-win-section {
+    width: 100%;
+}
+.lose-win-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 24px;
+}
+.lose-win-container p {
+    font-size: 3.2rem;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    letter-spacing: 8px;
+}
